@@ -13,6 +13,7 @@ To create a baseline job use the `ModelQualityMonitor` class provided by the Sag
    ```
    from sagemaker import get_execution_role, session, Session
    from sagemaker.model_monitor import ModelQualityMonitor
+   from sagemaker.model_monitor.dataset_format import DatasetFormat
                    
    role = get_execution_role()
    session = Session()
